@@ -1,7 +1,6 @@
 services:
   - type: worker
-    name: telegram-bot
+    name: ifji-bot
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    plan: free
